@@ -19,8 +19,10 @@ function App() {
     <div className="flex h-screen">
       <div className="flex-1 bg-hero bg-cover bg-center bg-no-repeat">
         <Navbar setActiveTab={setActiveTab} />
-        <div className="sm:w-1/2 h-[calc(100vh-48px)] grid content-center">
-          {tabList[activeTab]}
+        <div class="container mx-auto">
+          <div className="md:w-1/2 h-[calc(100vh-48px)] grid content-center">
+            {tabList[activeTab]}
+          </div>
         </div>
       </div>
     </div>

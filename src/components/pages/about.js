@@ -1,7 +1,7 @@
 const about = () => {
   return (
-    <div className="h-max grid justify-items-center">
-      <div className="flex flex-col justify-center m-5 p-5">
+    <div className="">
+      <div className="">
         <div className="text-small text-left my-3 text-slate-200">
           Hello, my name is Sri Sruthi Bommireddy and I am a student based in
           Long Beach, California. I am currently working as a Student Assistant
